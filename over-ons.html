@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over Ons - WebPinguin</title>
+    <meta name="description" content="Leer meer over WebPinguin - wie we zijn en wat we doen.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo-webpinguin.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo-webpinguin.png" alt="WebPinguin">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="over-ons.html">Over Ons</a></li>
+                <li><a href="diensten.html">Diensten</a></li>
+                <li><a href="producten.html">Producten</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="btn-primary">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Over WebPinguin</h1>
+            <p>Wie we zijn en wat we doen</h1>
+        </div>
+    </section>
+
+    <section class="about-content">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Wie wij zijn</h2>
+                    <p>Wij zijn WebPinguin, een klein team van webdevelopers die passie hebben voor het bouwen van websites.</p>
+                    <p>Wij geloven dat iedere kleine ondernemer recht heeft op een goede website — zonder dat het de wereld moet kosten.</p>
+                    <h3>Wie wij zijn:</h3>
+                    <p>Wij zijn een team van <?= COUNT(TEAM_MEMBERS) ?> profesionales, gevestigd in Nederland. Onze passie is webdesign, front-end development en user experience.</p>
+                </div>
+
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1560722513-4f59b3b9b513?w=600&h=600&fit=crop" alt="WebPinguin team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="values">
+        <div class="container">
+            <h2>Wij geloven in</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <h3>💡 Innovatie</h3>
+                    <p>We blijven op de hoogte van de laatste trends in webdevelopment.</h3>
+                </div>
+                <div class="value-card">
+                    <h3>🤝 Samenwerking</h3>
+                    <p>Je bent geen klant — je bent onderdeel van ons netwerk.</p>
+                </div>
+                <div class="value-card">
+                    <h3>🌍 Impact</h3>
+                    <p>We bouwen websites die écht een verschil maken.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-grid">
+                <div class="value-card">
+                    <h3>Start nu</h3>
+                    <p>Begin vandaag met een vrijblijvend gesprek.</h3>
+                    <a href="contact.html"
