@@ -14,19 +14,168 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - WebPinguin</title>
-    <meta name="keywords" content="website, webdesign, SEO, webshop, professionele website, webbouwer">
     <meta name="description" content="Bekijk onze eerdere projecten. Websites voor kleine en grote bedrijven.">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/webpinguin_logo_v6.png" type="image/png">
 </head>
-
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3PWW5EQ5VZ');
-</script>
 <body>
     <header>
+        <nav class="container">
+            <a href="index.html" class="logo">
+                <img src="images/webpinguin_logo_v6.png" alt="WebPinguin">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="over-ons.html">Over Ons</a></li>
+                <li><a href="diensten.html">Diensten</a></li>
+                <li><a href="producten.html">Producten</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="btn-primary">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section class="page-header">
+        <div class="container">
+            <h1>Ons Werk</h1>
+            <p>Projecten waar we trots op zijn</p>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Project 1: KiesKunstgras -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="images/Schermafdruk van 2026-04-09 00-55-57.png" alt="KiesKunstgras">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>KiesKunstgras.nl</h3>
+                        <p class="portfolio-desc">Website voor een kunstgras specialist. Complete website met contactformulier en productoverzicht.</p>
+                        <div class="portfolio-tags">
+                            <span>Standaard Website</span>
+                            <span>SEO</span>
+                        </div>
+                        <a href="https://kieskunstgras.nl" target="_blank" class="btn-secondary">Bekijk website →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Schuco-Varianto -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="images/Schermafdruk van 2026-04-09 00-57-50.png" alt="Schuco-Varianto">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Schuco-Varianto.nl</h3>
+                        <p class="portfolio-desc">Website voor en door verzamelaars van Schuco Varianto blikken speelgoed.</p>
+                        <div class="portfolio-tags">
+                            <span>CMS Website</span>
+                            <span>In aanbouw</span>
+                        </div>
+                        <a href="https://schuco-varianto.nl" target="_blank" class="btn-secondary">Bekijk website →</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Montgomery Steamwhistle -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="images/Schermafdruk van 2026-04-09 01-04-02.png" alt="Montgomery Steamwhistle">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Montgomery Steamwhistle</h3>
+                        <p class="portfolio-desc">Steampunk alter ego website voor Paul Boomkamp. Een complete website met eigen stijl en persoonlijkheid.</p>
+                        <div class="portfolio-tags">
+                            <span>Custom Design</span>
+                            <span>Steampunk</span>
+                        </div>
+                        <a href="https://steamwhistle.synapsisai.nl/" target="_blank" class="btn-secondary">Bekijk website →</a>
+                    </div>
+                </div>
+
+                <!-- Project 4: SandraBedrukt -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="images/Schermafdruk van 2026-04-16 11-29-06.png" alt="SandraBedrukt">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>SandraBedrukt.nl</h3>
+                        <p class="portfolio-desc">Affiliate website met gepersonaliseerde cadeaus onder €25. Incl. Bol.com integratie en categorie-overzicht.</p>
+                        <div class="portfolio-tags">
+                            <span>Affiliate Website</span>
+                            <span>SEO</span>
+                        </div>
+                        <a href="https://sandrabedrukt.nl" target="_blank" class="btn-secondary">Bekijk website →</a>
+                    </div>
+                </div>
+
+                <!-- Placeholder voor toekomstige projecten -->
+                <div class="portfolio-card placeholder">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Binnenkort">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Meer projecten coming soon</h3>
+                        <p class="portfolio-desc">We zijn constant bezig met nieuwe projecten. Check regelmatig voor updates!</p>
+                        <div class="portfolio-tags">
+                            <span>Binnenkort</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Wat onze klanten zeggen</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"WebPinguin heeft onze website snel en professioneel opgeleverd. Precies wat we zochten!"</p>
+                    <strong>- KiesKunstgras</strong>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Duidelijke communicatie, eerlijke prijzen. Zeker aan te bevelen!"</p>
+                    <strong>- Tevreden klant</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Wil je ook een professionele website?</h2>
+            <p>We helpen je graag met jouw project.</p>
+            <a href="contact.html" class="btn-primary">Neem contact op</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <img src="images/webpinguin_logo_v6.png" alt="WebPinguin" class="footer-logo">
+                    <p>WebPinguin - Websites en meer</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigatie</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="diensten.html">Diensten</a></li>
+                        <li><a href="producten.html">Producten</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>📧 info@webpinguin.nl</p>
+                    <p>📞 +31 6 23493326</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 WebPinguin. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
