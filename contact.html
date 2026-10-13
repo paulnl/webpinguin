@@ -24,7 +24,6 @@
         <nav class="container">
             <a href="index.html" class="logo">
                 <img src="images/webpinguin_logo_v6.png" alt="WebPinguin">
-                <script defer src="https://analytics.boomkamponline.nl/script.js" data-website-id="6dc6f03a-398d-46a4-bab8-10a20542e2b4"></script>
             </a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -185,7 +184,7 @@
             const data = Object.fromEntries(formData.entries());
 
             try {
-                const res = await fetch('https://n8n-oracle.tail2a8508.ts.net/webhook-test/916e7d06-23bc-4dc6-9d6b-a04416a329e8', {
+                const res = await fetch('https://n8n.synapsisai.nl/webhook-test/916e7d06-23bc-4dc6-9d6b-a04416a329e8', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data)
